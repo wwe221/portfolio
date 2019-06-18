@@ -57,16 +57,17 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#hobby"><i class="far fa-play-circle"></i> Hobby</a>
         </li>        
-      </ul>  
-          
+      </ul>
     </div>
-    
   </nav>
+  
 
   <div class="container-fluid p-0">
  	<a class="nav-link js-scroll-trigger" href="kor.html">KOR</a>
+ 	<hr class="title-line">   
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
+      
         <h1 class="mb-0">KyungHeon
           <span class="text-primary">Lee</span>
         </h1>
@@ -75,8 +76,7 @@
         </div>
         <p class="lead mb-5">
         I am a Junior level Developer yet. I'm still studying for being more Smarter and Powerful Dev.
-       
-        </p>
+       </p>
         <div class="social-icons">        
           <a href="https://github.com/wwe221" class="ex-social-icon">
             <i class="fab fa-github" ></i>
@@ -93,10 +93,10 @@
           </a>
         </div>
       </div>
-    </section>   
-
+    </section>
     <hr class="m-0">
-
+    
+    
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
         <h2 class="mb-5">Education</h2>
@@ -106,13 +106,20 @@
             <h3 class="mb-0">SangMyung Univ</h3>
             <div class="subheading mb-3">Bachelor of Science</div>
             <div>Computer Science</div>
-            <p>GPA: 3.31</p>
+            <p>GPA: 3.31</p>           
+            <span class="panel">
+          		<p class="panel-Button" onclick="myShowFunction('univpan');" >What I Learned</p>
+				<div id="univpan">
+				<p>
+				<img src="img/spring.png">		
+				</p>
+				</div>
+			</span> 
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">March 2013 - February 2019</span>
           </div>
         </div>
-
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
             <h3 class="mb-0">KyungKi High School</h3>
@@ -124,9 +131,9 @@
           </div>
         </div>
       </div>
-    </section>
-    
+    </section>    
     <hr class="m-0">
+    
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
@@ -137,14 +144,15 @@
           <h3 class="mb-0">SomeThing title</h3>
           <div class="subheading mb-3">IoT System Develop</div>
           <p>BigData IoT System Development (Connected Car)</p>
-          <p class="panel" onclick="myShowFunction()" >What I Learned</p>
-		<div id="panel">
+          
+          <span class="panel">
+          <p class="panel-Button" onclick="myShowFunction('iotpan');" >What I Learned</p>
+		<div id="iotpan">
 		<p>
-			Java , MySQL , HTML+CSS+JavaScript
-			
+			Java , MySQL , HTML+CSS+JavaScript			
 		</p>
-		
-	</div>
+		</div>
+		</span>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">June 2019 - December 2019</span>
@@ -244,7 +252,6 @@
           </li>
          
         </ul>
-
         <div class="subheading mb-3">Workflow</div>
         <ul class="fa-ul mb-0">
           <li>
@@ -269,8 +276,9 @@
       <div class="w-100">
         <h2 class="mb-5">Interests</h2>
         <hr class="title-line">
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+        <p> I usually participated in Android native application development.
+        Actually, i'm not interested in a particular field. I'm interested in any kind of SW development yet.</p>
+        <p class="mb-0"></p>
       </div>
     </section>
 

@@ -3,18 +3,20 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
+ /* https://marshall-ku.com/262 참고해서 그래프를 넣어보자. */
 @import
 	url('https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap');
 
 :root {
 	myColor: #87CEFA;
 }
-.panel{
+
+.panel-Button{
 	color: #0a95e9;
 	font-size:1.5em;
 	cursor:pointer;
 }
-#panel{
+.panel > div{
 	display:none;
 }
 body {
