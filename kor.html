@@ -77,10 +77,9 @@
         <div class="subheading mb-5"> 대한민국\ 서울시\강남구\삼성동\ 010-4541-8276
           <a href="mailto:name@email.com">wwe22123@gmail.com</a>
         </div>
-        <p class="lead mb-5">
-          컴퓨터과학과 학사 과정을 막 마치고 역량을 쌓기 위해 공부중인 취준생입니다.
-       
-        </p>
+        <div class="lead mb-5">
+          컴퓨터과학과 학사 과정을 막 마치고 역량을 쌓기 위해 공부중인 취준생입니다.       
+        </div>
         <div class="social-icons">        
          <a href="https://github.com/wwe221" class="ex-social-icon">
             <i class="fab fa-github"></i>
@@ -108,22 +107,32 @@
           <div class="resume-content">
             <h3 class="mb-0">상명대학교</h3>
             <div class="subheading mb-3">학사</div>
-            <h6>컴퓨터과학과</h6>
+             <p class="lead">컴퓨터과학과</p>
             <p>평점: 3.31</p>
-            <span class="panel">
-          		<p class="panel-Button" onclick="myShowFunction('univpan');" >What I Learned</p>
-				<div id="univpan">
-				<p>
-				Java , MySQL , HTML+CSS+JavaScript			
-				</p>
+             <div class="panel">          		
+				<div id="univpan">				
+					<div class="graph-wrapper" >
+						<ul class="graph">
+							<li class="bar1 p-100">
+								<span style="float:right;">
+									<img src="img/spring.png" style="width:30px; height:100%">
+								</span>
+							</li>
+							<li class="bar2 p-75"></li>
+							<li class="bar3 p-35"></li>
+							<li class="bar4 p-35"></li>
+							<li class="bar5 p-15"></li>
+						</ul>
+					</div>				
 				</div>
-			</span> 
-          </div>
+			</div> 
+			</div>
           <div class="resume-date text-md-right">
             <span class="text-primary">March 2013 - February 2019</span>
+            <p class="panel-Button" onclick="myShowFunction('univpan');" >What I Learned</p>
           </div>
         </div>
-
+ <hr class="contents-line">
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
             <h3 class="mb-0">경기 고등학교</h3>
@@ -136,6 +145,7 @@
         </div>
       </div>
     </section>
+    
     <hr class="m-0">
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
@@ -146,7 +156,7 @@
             <div class="subheading mb-3">IoT 시스템 개발</div>
             <p>빅데이터를 활용한 IoT 시스템 개발(feat.커넥티드 카)</p>
             <span class="panel">
-          		<p class="panel-Button" onclick="myShowFunction('iotpan');" >What I Learned</p>
+          		
 				<div id="iotpan">
 				<p>
 				Java , MySQL , HTML+CSS+JavaScript			
@@ -156,7 +166,7 @@
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">June 2019 - December 2019</span>
-            
+            <p class="panel-Button" onclick="myShowFunction('iotpan');" >What I Learned</p>            
           </div>
           
         </div>
@@ -171,10 +181,15 @@
           <div class="resume-content">
             <h3 class="mb-0">My_Busstop</h3>
             <div class="subheading mb-3">안드로이드</div>
-            <div>원하는 버스정류장의 도착 버스정보를 조회하는 어플리케이션 개발</div>
-             <a href="#" onclick="window.open('img/mybus.jpg','window_name','width=800,height=450,location=no,status=no,scrollbars=yes');">
-             <img class="img-fluid" src="img/mybus.jpg" alt="">
-             </a>
+            <div class="lead">원하는 버스정류장의 도착 버스정보를 조회하는 어플리케이션 개발</div>
+             <span class="panel">
+   				<h5 class="panel-Button" onclick="myShowFunction('buspan');" > screenshots</h5>      
+				<div id="buspan">			
+			 	<a href="#projects" onclick="window.open('img/mybus.jpg','window_name','width=800,height=450,location=no,status=no,scrollbars=yes');">
+             	<img class="img-fluid" src="img/mybus.jpg" alt="">
+             	</a>
+				</div>
+		  	</span>
             
           </div>
           <div class="resume-date text-md-right"> 
@@ -183,12 +198,12 @@
             <i class="fab fa-github"></i></a></h3>
           </div>
         </div>
-        
+         <hr class="contents-line">
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Location_Collect</h3>
             <div class="subheading mb-3">안드로이드</div>
-            <div>비콘을 이용한 실내위치 데이터 수집 어플리케이션 개발</div>
+            <div class="lead">비콘을 이용한 실내위치 데이터 수집 어플리케이션 개발</div>
             <h4>         
             </h4>
           </div>
@@ -198,16 +213,21 @@
             <i class="fab fa-github"></i></a></h3>
           </div>
         </div>
-        
+         <hr class="contents-line">
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Noriter</h3>
             <div class="subheading mb-3">안드로이드</div>
-            <div>서울시 내의 pc방의 정보 제공 어플리케이션 개발</div> 
-            <p>A Project for Graduation</p>
-            <a onclick="window.open('img/noriter.jpg','window_name','width=600,height=300,location=no,status=no,scrollbars=yes');">
-            <img class="img-fluid" src="img/noriter.jpg" alt="">
-            </a>          
+            <p>졸업 프로젝트</p>
+            <div class="lead">서울시 내의 pc방의 정보 제공 어플리케이션 개발</div> 
+            <span class="panel">
+   				<h5 class="panel-Button" onclick="myShowFunction('noripan');" > screenshots</h5>      
+				<div id="noripan">			
+			 	<a onclick="window.open('img/noriter.jpg','window_name','width=600,height=300,location=no,status=no,scrollbars=yes');">
+            		<img class="img-fluid" src="img/noriter.jpg" alt="">
+            	</a>   
+				</div>
+		  	</span>        
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Jenuary 2018 - August 2018</span>
@@ -304,19 +324,19 @@
         <hr class="title-line">
         <div class="subheading mb-3"><i class="fas fa-gamepad"></i>&nbsp; CallofDuty Player: <a href="https://cod-esports.gamepedia.com/Turbo">Turboy</a></div>
         <ul class="fa-ul mb-0">
-          <li>
+          <li class="lead">
           	<span> <i class="fa-li fa fa-trophy text-warning"></i></span>
             1<sup>st</sup> Korea Championship 2019</li>
           <li>
             <i class="fas fa-medal"></i>
             4<sup>th</sup> Asia Championship 2019</li>	
-          <li>
+          <li class="lead">
           	<span> <i class="fa-li fa fa-trophy text-warning"></i></span>
             1<sup>st</sup> Korea Championship 2017</li>
           <li>
             <i class="fas fa-medal"></i>
             4<sup>th</sup> Asia Championship 2017</li>
-            <li>
+            <li class="lead">
           	<span> <i class="fa-li fa fa-trophy text-warning"></i></span>
             1<sup>st</sup> Korea Championship 2014</li>
           <li>
@@ -328,7 +348,7 @@
           <li>
             <i class="fas fa-users"></i>
             World Championship 2013</li>		         
-        </ul>         
+        </ul>            
         
       </div>
     </section>

@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
@@ -15,6 +15,9 @@
 	color: #0a95e9;
 	font-size:1.5em;
 	cursor:pointer;
+}
+.panel-Button:hover{
+	color: #87CEFA
 }
 .panel > div{
 	display:none;
@@ -40,7 +43,8 @@ h1, h2, h3, h4, h5, h6 {
 		'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
 		'Noto Color Emoji', 'Do Hyeon', sans-serif;
 	font-weight: 700;
-	color: #343a40
+	color: #343a40;
+	margin-bottom: 1rem;
 }
 
 h1 {
@@ -62,7 +66,11 @@ p.lead {
 	font-size: 1.15rem;
 	font-weight: 400
 }
-
+div.lead{
+	font-size: 1.15rem;
+	font-weight: 400
+	
+}
 p {
 	font-family: 'Do Hyeon', sans-serif;
 }
@@ -109,7 +117,7 @@ p {
 }
 
 .dev-icons {
-	font-size: 3rem;
+	font-size: 4rem;
 }
 
 .list-inline-item {
@@ -235,6 +243,10 @@ section.resume-section .resume-item .resume-date {
 hr.title-line{
 	border:1px solid #46b5f7;	
 }
+hr.contents-line{
+	border:1px solid #46b5f7;
+	opacity: 0.3;
+}
 .bg-primary {
 	background-color: myColor !important
 }
@@ -274,9 +286,10 @@ li.p-100::before{content:"100%"} */
 
 .graph-wrapper {
   position: relative;  
-  border:1px solid #aaa;
-  width:62vw;
+  border:1px solid #ffffff;
+  width:50vw;
   margin:auto;
+  opacity: 1;
 }
 
 .graph-wrapper h1 {
@@ -292,43 +305,11 @@ li.p-100::before{content:"100%"} */
   line-height:30px
 }
 
-.percent-indicator {
-  position:absolute;
-  top:0;
-  right:25px;
-  left:25px;
-  bottom:0;
-  display:flex;
-  justify-content: space-between;
-  width:calc(100% - 50px);
-  padding:50px 20px
-}
-
-.percent-indicator div {
-  position:relative;
-  width:0;
-  margin-left:-1px;
-  border-left:1px dashed #aaa
-}
-
-.percent-indicator .per-0 {
-  transform: translateX(1px)
-}
-
-.percent-indicator div::before, .percent-indicator div::after {
-  position: absolute;
-  left:50%;
-  transform: translateX(-50%);
-  padding-bottom:5px;
-  font-size:16px;
-  line-height:16px;
-  background:#fff
-}
 
 .graph {
   position: relative;
-  margin:100px auto;
-  padding:0 20px;
+  margin:0 auto;
+  padding:0 0;
   list-style:none;
   z-index: 2
 }
@@ -349,20 +330,21 @@ li.p-100::before{content:"100%"} */
 .graph>li:hover::before {
   display:block
 }
-.graph-wrapper>.graph>.bar1{
-	background:#f69439;
+.graph-wrapper>.graph>.bar1{	
+	background: linear-gradient( to right, #f69439 99%, #87CEFA);
 }
 .graph-wrapper>.graph>.bar2{
-	background:#ff3f3f;
+	
+	background: linear-gradient( to right, #ff3f3f 99%, #87CEFA);
 }
 .graph-wrapper>.graph>.bar3{
-	background:red;
+	background:linear-gradient( to right, red 99%, #87CEFA);
 }
 .graph-wrapper>.graph>.bar4{
-	background:red;
+	background:linear-gradient( to right, red 99%, #87CEFA);
 }
 .graph-wrapper>.graph>.bar5{
-	background:red;
+	background:linear-gradient( to right, red 99%, #87CEFA);;
 }
 li.bar1::after {
   content:"java";
@@ -415,6 +397,38 @@ li.bar5::after {
   content:'Challenger'
 }
 
+.percent-indicator {
+  position:absolute;
+  top:0;
+  right:25px;
+  left:25px;
+  bottom:0;
+  display:flex;
+  justify-content: space-between;
+  width:calc(100% - 50px);
+  padding:50px 20px
+}
+
+.percent-indicator div {
+  position:relative;
+  width:0;
+  margin-left:-1px;
+  border-left:1px dashed #aaa
+}
+
+.percent-indicator .per-0 {
+  transform: translateX(1px)
+}
+
+.percent-indicator div::before, .percent-indicator div::after {
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  padding-bottom:5px;
+  font-size:16px;
+  line-height:16px;
+  background:#fff
+}
 @media screen and (max-width:640px) {
   .percent-indicator div::after {
     display:none

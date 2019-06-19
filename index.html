@@ -66,17 +66,16 @@
  	<a class="nav-link js-scroll-trigger" href="kor.html">KOR</a>
  	<hr class="title-line">   
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-      
+      <div class="w-100">      
         <h1 class="mb-0">KyungHeon
           <span class="text-primary">Lee</span>
         </h1>
-        <div class="subheading mb-5"> KOREA\SEOUL\GangnamGu\SamsungDong · (+82)1045418276
-          <a href="mailto:wwe22123@gmail.com"> wwe22123@gmail.com</a>
+        <div class="subheading mb-5"> <h5>KOREA\SEOUL\GangnamGu\SamsungDong · (+82)1045418276
+          <a href="mailto:wwe22123@gmail.com"> wwe22123@gmail.com</a></h5>
         </div>
-        <p class="lead mb-5">
+        <div class="lead mb-5">
         I am a Junior level Developer yet. I'm still studying for being more Smarter and Powerful Dev.
-       </p>
+       </div>
         <div class="social-icons">        
           <a href="https://github.com/wwe221" class="ex-social-icon">
             <i class="fab fa-github" ></i>
@@ -100,17 +99,16 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
         <h2 class="mb-5">Education</h2>
-		<hr class="title-line">
+		<hr class="title-line">		
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">SangMyung Univ</h3>
             <div class="subheading mb-3">Bachelor of Science</div>
-            <div>Computer Science</div>
+            <p class="lead">Computer Science</p>
             <p>GPA: 3.31</p>           
-            <span class="panel">
-          		<p class="panel-Button" onclick="myShowFunction('univpan');" >What I Learned</p>
-				<div id="univpan">
-					<div class="graph-wrapper">
+            <div class="panel">          		
+				<div id="univpan">				
+					<div class="graph-wrapper" >
 						<ul class="graph">
 							<li class="bar1 p-100">
 								<span style="float:right;">
@@ -122,14 +120,16 @@
 							<li class="bar4 p-35"></li>
 							<li class="bar5 p-15"></li>
 						</ul>
+					</div>				
 				</div>
-				</div>
-			</span> 
+			</div> 
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">March 2013 - February 2019</span>
+            <p class="panel-Button" onclick="myShowFunction('univpan');" >What I Learned</p>
           </div>
         </div>
+        <hr class="contents-line">
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
             <h3 class="mb-0">KyungKi High School</h3>
@@ -154,18 +154,17 @@
           <h3 class="mb-0">SomeThing title</h3>
           <div class="subheading mb-3">IoT System Develop</div>
           <p>BigData IoT System Development (Connected Car)</p>
-          
-          <span class="panel">
-          <p class="panel-Button" onclick="myShowFunction('iotpan');" >What I Learned</p>
-		<div id="iotpan">
-		<p>
-			Java , MySQL , HTML+CSS+JavaScript			
-		</p>
-		</div>
-		</span>
+          <span class="panel">          
+			<div id="iotpan">
+			<p>
+				Java , MySQL , HTML+CSS+JavaScript			
+			</p>
+			</div>
+		  </span>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">June 2019 - December 2019</span>
+            <p class="panel-Button" onclick="myShowFunction('iotpan');" >What I Learned</p>
             <h3>
             <a href="#experience" onclick="window.open('file:curri.pdf')" >
             <i class="fas fa-file"></i></a>
@@ -176,6 +175,7 @@
 
       </div>
     </section>
+   <hr class="m-0">
    
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
       <div class="w-100">
@@ -185,24 +185,28 @@
           <div class="resume-content">
             <h3 class="mb-0">My_Busstop</h3>
             <div class="subheading mb-3">android</div>
-            <div>Providing BusStop's information that i want</div>
-             <a href="#projects" onclick="window.open('img/mybus.jpg','window_name','width=800,height=450,location=no,status=no,scrollbars=yes');">
-             <img class="img-fluid" src="img/mybus.jpg" alt="">
-             </a>
-            
-          </div>
+            <div class="lead">Providing BusStop's information that i want</div>
+            <span class="panel">
+   				<h5 class="panel-Button" onclick="myShowFunction('buspan');" > screenshots</h5>      
+				<div id="buspan">			
+			 	<a href="#projects" onclick="window.open('img/mybus.jpg','window_name','width=800,height=450,location=no,status=no,scrollbars=yes');">
+             	<img class="img-fluid" src="img/mybus.jpg" alt="">
+             	</a>
+				</div>
+		  	</span>
+		  </div>
           <div class="resume-date text-md-right"> 
             <span class="text-primary">December 2017</span>
            <h3><a href="#projects" onclick="window.open('https://github.com/wwe221/PJs')" >
             <i class="fab fa-github"></i></a></h3>
           </div>
         </div>
-        
+        <hr class="contents-line">
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Location_Collect</h3>
             <div class="subheading mb-3">android</div>
-            <div>Collect indoor location using Beacons</div>
+            <div class="lead">Collect indoor location using Beacons</div>
             <h4>         
             </h4>
           </div>
@@ -212,15 +216,22 @@
             <i class="fab fa-github"></i></a></h3>
           </div>
         </div>        
+        <hr class="contents-line">
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Noriter</h3>
             <div class="subheading mb-3">Android</div>
-            <div>Providing every PCBang's information in SEOUL</div> 
             <p>A Project for Graduation</p>
-            <a onclick="window.open('img/noriter.jpg','window_name','width=600,height=300,location=no,status=no,scrollbars=yes');">
-            <img class="img-fluid" src="img/noriter.jpg" alt="">
-            </a>          
+            <div class="lead">Providing every PCBang's information in SEOUL</div> 
+            <span class="panel">
+   				<h5 class="panel-Button" onclick="myShowFunction('noripan');" > screenshots</h5>      
+				<div id="noripan">			
+			 	<a onclick="window.open('img/noriter.jpg','window_name','width=600,height=300,location=no,status=no,scrollbars=yes');">
+            		<img class="img-fluid" src="img/noriter.jpg" alt="">
+            	</a>   
+				</div>
+		  	</span>
+                   
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Jenuary 2018 - August 2018</span>
@@ -286,7 +297,7 @@
       <div class="w-100">
         <h2 class="mb-5">Interests</h2>
         <hr class="title-line">
-        <p> I usually participated in Android native application development.
+        <p class="lead"> I usually participated in Android native application development.
         Actually, i'm not interested in a particular field. I'm interested in any kind of SW development yet.</p>
         <p class="mb-0"></p>
       </div>
@@ -314,19 +325,19 @@
         <hr class="title-line">
         <div class="subheading mb-3"><i class="fas fa-gamepad"></i>&nbsp; CallofDuty Player: <a href="https://cod-esports.gamepedia.com/Turbo">Turboy</a></div>
         <ul class="fa-ul mb-0">
-          <li>
+          <li class="lead">
           	<span> <i class="fa-li fa fa-trophy text-warning"></i></span>
             1<sup>st</sup> Korea Championship 2019</li>
           <li>
             <i class="fas fa-medal"></i>
             4<sup>th</sup> Asia Championship 2019</li>	
-          <li>
+          <li class="lead">
           	<span> <i class="fa-li fa fa-trophy text-warning"></i></span>
             1<sup>st</sup> Korea Championship 2017</li>
           <li>
             <i class="fas fa-medal"></i>
             4<sup>th</sup> Asia Championship 2017</li>
-            <li>
+            <li class="lead">
           	<span> <i class="fa-li fa fa-trophy text-warning"></i></span>
             1<sup>st</sup> Korea Championship 2014</li>
           <li>
