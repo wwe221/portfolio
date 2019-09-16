@@ -627,7 +627,7 @@ li.p-100::before{content:"100%"} */
 .graph-wrapper {
 	position: relative;
 	border: 1px solid #ffffff;
-	width: 50vw;
+	width: 40vw;
 	margin: auto;
 	opacity: 1;
 }
@@ -712,6 +712,7 @@ li.bar4::after {
 li.bar5::after {
 	content: "item5"
 }
+
 
 .percent-indicator div::after {
 	top: 21px
